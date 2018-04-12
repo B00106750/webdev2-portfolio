@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.uno {
+    width: 500px;
+}
+
+.uno p {
+	color: white;
+	position: relative;
+	top: -95px;
+	padding: 10px;
+}
+
+.dos {
+	width: 550px;
+	top: -479px;
+	position: relative;
+	float: right;
+	z-index: -1;
+}
+
+.dos p {
+	color: white;
+	position: relative;
+	padding: 10px;
+	top: -95px;
+}
+
+.tres {
+	width: 1050px;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	top: -550px;
+	z-index: -1;
+}
+
+.tres p {
+	color: white;
+	position: relative;
+	padding: 10px;
+	top: -95px;
+}
+
+.cuatro {
+	width: 1050px;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	top: -640px;
+	z-index: -1;
+}
+
+.cuatro p {
+	color: white;
+	position: relative;
+	padding: 10px;
+	top: -95px;
+}
+
+.container {
+	width: 1100px;
+	height: 1800px;
+	margin: auto;
+}
+
+#logo {
+	font-family: Vivaldi;
+	font-size: 35px;
+}
+
+nav {
+	position: fixed;
+	height: 100px;
+}
+
+ul {
+	list-style-type: none;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	float: left;
+	background-color: black;
+	text-align: center;
+	height: 50px;
+	opacity: 0.9;
+	color: white;
+	line-height: 50px;
+	width: 275px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li:hover,ul li a:hover {
+	background-color: red;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.log {
+	background-color: red;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+}
+
+.log a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.login {
+	margin: auto;
+	text-align: center;
+	background-color: dimgray;
+	opacity: .85;
+	border: solid black;
+	width: 400px;
+	padding: 20px;
+}
+
+#pfp {
+	border-radius: 50%;
+	border: dashed;
+	width: 135px
+}
+
+.signup {
+	background-color: indianred;
+	width: 700px;
+	padding: 20px;
+	opacity: .9;
+	border: solid;
+	margin: auto;
+}
+
+.pfp a{
+	text-decoration: none;
+	color: black;
+}
+
+#space1 {
+	height: 100px;
+}
+
+#space2 {
+	height: 75px;
+}
+
+.drop {
+	margin: auto;
+	text-align: center;
+	background-color: lightgrey;
+	width: 300px;
+	opacity: .8;
+	border: dashed;
+	padding: 10px;
+}
+
+.go {
+	background-color: lawngreen;
+	padding: 2px;
+	text-align: center;
+	width: 80px;
+	font-weight: bold;
+	font-size: 20px;
+	margin: auto;
+}
+
+.go a {
+	text-decoration: none;
+	color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.profile img {
+	border-radius: 50%;
+	border: solid aqua;
+}
+
+.profile {
+	padding: 10px;
+	background-image: url(../images/picbak.jpg);
+	border: solid aqua;
+	color: white;
+}
+
+#loinks {
+    text-align: center;
+	font-family: Vivaldi;
+	font-size: 30px;
+}
+
+#loinks a {
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.edit {
+	list-style: none;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	margin-top: -30px;
+}
+
+.edit li {
+	height: 25px;
+	line-height: 25px;
+	width: 150px;
+	font-size: 18px;
+	float: right;
+}
+
+.photoss {
+	background-color: lightgrey;
+	padding: 2px;
+	text-align: center;
+}
+
+.photoss p img {
+	padding: 2px;
+	border: solid;
+}
+
+.shop {
+	background-color: lightgrey;
+	padding: 2px;
+	text-align: center;
+}
+
+.shop p img {
+	padding: 2px;
+	border: solid;
+}
+
+.photoss a {
+	text-decoration: none;
+	color: red
+}
+
+.shop a {
+	text-decoration: none;
+	color: red
+}
+
+.essay {
+	background-color: slategrey;
+	padding: 5px;
+	text-align: center;
+}
+
+.essay a {
+	text-decoration: none;
+	color: cyan;
+}
+
+.comic {
+	background-color: slategrey;
+	padding: 5px;
+	text-align: center;
+}
+
+.comic a {
+	text-decoration: none;
+	color: cyan;
+}
+
+.stitch {
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	text-align: center;
+	padding: 5px;
+}
+
+.stitch a {
+	text-decoration: none;
+	color: cyan;
+}
+
+.free {
+	text-align: center;
+	background-color: #A28653;
+	padding: 5px;
+}
+
+.free a {
+	text-decoration: none;
+}
+
+.pro {
+	text-align: center;
+	background-color: #A28653;
+	padding: 5px;
+}
+
+.pro a {
+	text-decoration: none;
+}
+
+footer {
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
